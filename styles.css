@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: "Delius Swash Caps", cursive;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing:border-box ;
+    background: #F9E9D1;
+}
+
+.container{
+    
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     max-width: 500px;
+     padding: 30px;
+     border-radius: 20px;
+     margin: 120px auto 0 auto;
+     background-color: rgb(191, 160, 120);
+     width: 90%;
+    
+
+     position: relative;
+     z-index: 1001;  
+}
+#form{
+    background-color:  rgb(191, 160, 120);
+    
+}
+.statscontainer{
+    padding: 30px;
+    border: 2px solid;
+    border-radius: 20px;
+    display: flex;
+    gap:50px;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.details{
+    width: 100%;
+}
+#progress{
+    width:auto;
+    height: 10px;
+    background-color:#A1D3D1 ;
+    border-radius:10px ;
+    transition: all 0.3s ease;
+}
+ #progressBar{
+    width: 100%;
+    height: 10px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    border-radius: 5px;
+ }
+#numbers{
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+form{
+    margin-top: 60px;
+    width: 100%;
+    display: flex; 
+    gap: 10px;
+}
+input{
+    flex: 1;
+    padding: 16px;
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 10px;
+    outline: none;
+    color: #171717;
+}
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #070707;
+    font-size: 30px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    
+}
+#submit{
+    outline: none;
+}
+#task-list{
+    display: flex;
+    flex-direction: column;
+    margin-top:30px ;
+    gap: 10px;
+    width: 100%;
+    list-style: none;
+    background-color: rgb(191, 160, 120);;
+}
+.taskItem{
+    display: flex;
+    background-color: #fcf3f3;
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 100%;
+    align-items: center;
+}
+.task{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.task input{
+    width: 20px;
+    height: 20px;
+}
+.taskItem img{
+    height: 24px;
+    width: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.completed p{
+    text-decoration: line-through;
+    color: hsl(0, 17%, 16%);
+}
+.app-logo {
+    position: absolute;
+    top: 13px;
+    /* Adjust position relative to the box */
+     /* Adjust position relative to the box */
+    width: 50px; /* Adjust the size of the logo */
+    height: 50px; /* Ensure proportional height */
+    border-radius: 50%; /* Optional for circular styling */
+        right: 20px; /* Adjust as needed */
+      }
+      #confetti-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+      }
+
+      

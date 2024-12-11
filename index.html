@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>To do list</title>
+</head>
+<body>
+    <div class="container">
+        <div class="statscontainer">
+            <div class="details">
+                <img src="img/cute.png" alt="Logo" class="app-logo">
+                <h1>To-do App</h1>
+                <p>Keep it up</p>
+                <div id="progressBar">
+                    <div id="progress"></div>
+                </div>
+            </div>
+            <div class="stats-number">
+                <p id="numbers">0 / 0</p>
+
+            </div>
+        </div>
+        <form action="" id="form">
+            <input  id="taskInput" type="text" placeholder="Write your task">
+            <button id="newTask" type="submit">+</button>
+        </form>
+        <ul id="task-list"></ul>
+    </div>
+    <div id="confetti-container"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+<script src="index.js"></script> 
+</body>
+</html>
